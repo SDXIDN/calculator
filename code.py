@@ -8,12 +8,12 @@ class Calculator:
         raise NotImplementedError
 
     def multiply(self, a, b):
-        # TODO: implement multiplication
-        raise NotImplementedError
+        return a * b
 
     def divide(self, a, b):
-        # TODO: implement division
-        raise NotImplementedError
+        if b == 0:
+            raise ValueError("Division by zero!")
+        return a / b
 
 
 if __name__ == "__main__":
