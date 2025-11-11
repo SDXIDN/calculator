@@ -16,4 +16,4 @@ class Calculator:
 
 if __name__ == "__main__":
     calc = Calculator()
-    print("Conflict from Burla")
+    print("Conflict test by Burla")
