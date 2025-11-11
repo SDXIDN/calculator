@@ -1,11 +1,9 @@
 class Calculator:
     def add(self, a, b):
-        # TODO: implement addition
-        raise NotImplementedError
+        return a + b
 
     def subtract(self, a, b):
-        # TODO: implement subtraction
-        raise NotImplementedError
+        return a - b
 
     def multiply(self, a, b):
         return a * b
