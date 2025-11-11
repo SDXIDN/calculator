@@ -13,7 +13,7 @@ class Calculator:
             raise ValueError("Division by zero!")
         return a / b
 
-
+print("Conflict from Burla")
 if __name__ == "__main__":
     calc = Calculator()
-    print("Conflict test by Burla")
+print("Team calculator ready!")
